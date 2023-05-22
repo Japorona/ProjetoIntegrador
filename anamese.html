@@ -1,191 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body class="anamnese">
-  <section class=anamnse-cliente>
-    <h1 class="titulo1"> <u>Anamnese</h1>
-    </u>
-
-    <input class="historico" type="text" placeholder="Queixa Principal/Historico Recente" name="campo-texto" />
-    <img src="img/lapinsdesenho.png" class="lapis">
-
-    <input class="medicamentos" type="text" placeholder="Medicacões atuais" name="campo-texto" />
-    <img src="img/lapinsdesenho.png" class="lapis2">
-    <input class="peso" type="text" placeholder="Peso:" name="campo-texto" />
-    <p class="score">Escore corporal:</p>
-
-    <form class="sc1">
-      <label>
-        1
-        <input type="radio" name="escolha" value="opcao1" />
-
-
-      </label>
-
-      <form class="sc2">
-        <label>
-          2
-          <input type="radio" name="escolha" value="opcao1" />
-
-
-        </label>
-
-        <form class="sc3">
-          <label>
-            3
-            <input type="radio" name="escolha" value="opcao1" />
-
-
-          </label>
-          <form class="sc4">
-            <label>
-              4
-              <input type="radio" name="escolha" value="opcao1" />
-
-
-            </label>
-
-            <form class="sc5">
-              <label>
-                5
-                <input type="radio" name="escolha" value="opcao1" />
-
-
-              </label>
-              <p id="geral">Anamnse Geral</p>
-
-  </section>
-  <div class="fundo-verde1">
-    <div class="Opc1">
-      <label>
-        <br />
-        &nbsp; Estado reprodutivo: &emsp; &emsp;&emsp;&emsp;&emsp;Castrado:
-        <input type="radio" name="escolha" value="opcao1" />
-        &emsp;&emsp;
-      </label>
-      <label>
-        Não castrado:
-        <input type="radio" name="escolha" value="opcao2" />
-        <br />
-      </label>
-      <br>
-      <hr>
-      <form class="Opc2">
-        <label>
-          <br />
-          &nbsp; Ingestão de agua:&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
-          Aumentado:
-          <input type="radio" name="escolha" value="opcao1" />
-          &emsp;
-        </label>
-        <label>
-          Dimunido:
-          <input type="radio" name="escolha" value="opcao2" />
-          &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;
-          <br />
-        </label>
-        <br />
-        <hr />
-      </form>
-      <form class="Opç3">
-        <label>
-          <br />
-          &nbsp; Quantidade de urina:&emsp; &emsp;&emsp;&emsp;&ensp; Aumentado:
-          <input type="radio" name="escolha" value="opcao1" />
-          &emsp;
-        </label>
-        <label>
-          Diminuido:
-          <input type="radio" name="escolha" value="opcao2" />
-          &emsp;
-        </label>
-        <label>
-          Normal:
-          <input type="radio" name="escolha" value="opcao3" />
-          &emsp;
-        </label>
-        <label>
-          Não sabe:
-          <input type="radio" name="escolha" value="opcao4" />
-          &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp;
-          &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;
-          &emsp;&emsp;&emsp; &emsp;
-          <br />
-        </label>
-        <br />
-        <hr />
-      </form>
-      <form class="Opç4">
-        <label>
-          <br />
-          &nbsp; Fezes: &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;&emsp; &emsp;
-          &emsp; Normal:
-          <input type="radio" name="escolha" value="opcao1" />
-          &emsp; &emsp;
-        </label>
-        <label>
-          Alterado:
-          <input type="radio" name="escolha" value="opcao2" />
-          <br />
-        </label>
-        <br />
-        <hr />
-      </form>
-      <form class="Opc5">
-        <label>
-          <br />
-          &nbsp; Problemas de pele:&emsp; &emsp;&emsp; &emsp; &emsp; Sim:
-          <input type="radio" name="escolha" value="opcao1" />
-          &emsp; &emsp; &emsp;&nbsp;
-        </label>
-        <label>
-          Não:
-          <input type="radio" name="escolha" value="opcao2" />
-          <br />
-        </label>
-        <br />
-        <hr />
-      </form>
-      <form class="Opções6">
-        <label>
-          &nbsp; Peso &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-          &emsp; Manteve:
-          <input type="radio" name="escolha" value="opcao1" />
-          &emsp;&emsp;
-        </label>
-        <label>
-          Aumentou:
-          <input type="radio" name="escolha" value="opcao2" />
-          &emsp; Diminutiu:
-          <input type="radio" name="escolha" value="opcao3" />
-          &emsp;
-        </label>
-      </form>
-    </div>
+.anamnese {
     
+    background-image: url('img/WhatsApp\ Image\ 2023-05-22\ at\ 19.48.42.jpeg');
+    left: 5%;
+    background-color: #222;
+    /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* centraliza a imagem */
+    height:890px;
+    width: 100px;
+}
+
+
+
+.anamnse-cliente {
+    position: relative;
+    width: 1024px;
+    height: 708px;
  
-    <p id="obs1">Observações:</p>
-    <p id="obs2">Observações:</p>
-    <p id="obs3">Observações:</p>
-    <p id="obs4">Observações:</p>
-    <p id="obs5">Observações:</p>
-    <p id="obs6">Observações:</p>
-    <br>
-    <br>
-    <a id="volta6" href="final.html">Proseguir</a>
+}
 
-   
+.historico {
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+    width: 420px;
+    height: 90px;
+    left: 0px;
+    top: 165px;
 
-</div>
+    background-color: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
 
-</body>
+.lapis {
+    width: 17px;
+    top: 200px;
+    position: relative;
+    left: 230px;
+}
+.medicamentos{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+    width: 420px;
+    height: 90px;
+    left: 850px;
+    top: 165px;
 
-</html>
+    background-color: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+}
+.lapis2{
+    width: 17px;
+    top:200px;
+    position: relative;
+    left: 955px;
+}
+.peso{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: -0px;
+    top: 280px;
+
+    background-color: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+}
+.score{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 135px;
+    top: 290px
+
+}
+
+
+.sc1{
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: 250px;
+    top: 305px;
+    font-weight: bold;
+}
+.sc2{
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: 490px;
+    top: 442px;
+    font-weight: bold;
+}
+
+.sc3{
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: 500px;
+    top: 442px;
+    font-weight: bold;
+}
+
+.sc4{
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: 510px;
+    top: 442px;
+    font-weight: bold;
+}
+
+.sc5{
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: 520px;
+    top: 450px;
+    font-weight: bold;
+}
+#geral{
+  
+    width: 300px;
+    height: 45px;
+    position: absolute;
+    left: -250px;
+    top:40px;
+    font-weight: bold;
+}
+.fundo-verde1 {
+    background-color: #00cc8f;
+    position: absolute;
+    top: 400px;
+    border-radius: 8px;
+  }
+  #obs1 {
+    position: absolute;
+    top: 10px;
+    left: 740px;
+  }
+
+  #obs2 {
+    position: absolute;
+    top: 80px;
+    left: 740px;
+  }
+  #obs3 {
+    position: absolute;
+    top: 150px;
+    left: 740px;
+  }
+  #obs4 {
+    position: absolute;
+    top: 220px;
+    left: 740px;
+  }
+  #obs5 {
+    position: absolute;
+    top: 290px;
+    left: 740px;
+  }
+  #obs6 {
+    position: absolute;
+    top: 370px;
+    left: 740px;
+  }
+  
+
+  
+
+  #volta6 {
+    text-decoration: none;
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+    font-size: 32px;
+    background-color: #00CC8F;
+    border-radius: 15px;
+    height: 40px;
+    width: 130px;
+    color:black;
+  }
