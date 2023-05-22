@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 .login {
     position: relative;
     width: 1024px;
     height: 768px;
+=======
+.login
+{
+position: relative;
+width: 1024px;
+height: 768px;
+>>>>>>> parent of be22c75 (histórico)
 
 }
 
 body {
     background-image: url('img/fundo.png');
+<<<<<<< HEAD
     background-color: #222;
     /* cor de backup */
     background-repeat: no-repeat;
@@ -185,8 +194,325 @@ body {
     font-weight: 900;
     font-size: 25px;
     line-height: 30px;
+=======
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+  }
+
+  .tittle
+  {
+    position: absolute;
+width: 262.09px;
+height: 58.27px;
+left: 33.55px;
+top: 213.97px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+  }
+
+.caixatxt
+{
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 30px;
+top: 300px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.senha
+{
+position: absolute;
+width: 160.4px;
+height: 48.72px;
+left: 33.55px;
+top: 329.55px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+}
+.senhatxt
+{
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 30px;
+top:410px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+    }
+.esquecisenha
+{
+    position: absolute;
+width: 353.29px;
+height: 35.34px;
+left: 35px;
+top: 460px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #0500FC;
+}
+.botaologin
+{
+text-align: center;
+position: absolute;
+width: 200px;
+height: 70px;
+left: 80px;
+top: 535px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+text-decoration: none;
+text-decoration-color: black;
+font-size: 50px;
+color: black;
+}
+.esqsenha
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+.fundosenha
+{
+    background-image: url('img/esqsenha.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.titlesenha
+{
+text-decoration: underline solid;
+position: absolute;
+width: 536px;
+height: 132px;
+left: 140px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.nametxt
+{
+    position: absolute;
+width: 160.4px;
+height: 48.72px;
+left: 30px;
+top: 200px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
 }
 
+.nometxt
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top:280px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.greenbutao
+{
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+width: 250px;
+height: 70px;
+left: 60px;
+top: 370px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+.newlogin
+{
+    position: absolute;
+width: 247px;
+height: 45px;
+left: 100px;
+top: 430px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 30px;
+}
+
+.newpass
+{
+    position: absolute;
+width: 200.4px;
+height: 100.72px;
+left: 30px;
+top: 500px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+}
+.newpassword
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 580px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.repeatpass
+{
+    position: absolute;
+    width: 250.4px;
+    height: 100.72px;
+    left: 30px;
+    top: 600px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+}
+.repetepassword
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 680px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.concluir
+{
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+width: 250px;
+height: 70px;
+left: 1000px;
+top: 650px;
+color: white;
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+font-weight: bold;
+}
+.registerfun
+{
+    position: absolute;
+width: 353.29px;
+height: 35.34px;
+left: 70px;
+top: 640px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #0500FC;
+
+mix-blend-mode: normal;
+}
+.funcionariopage
+{
+    position: relative;
+width: 1024px;
+height: 768px;
+
+}
+.fundofuncio
+{
+    background-image: url('img/funcionario.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+
+.titulo-funcionario
+{
+    position: absolute;
+width: 536px;
+height: 132px;
+left: 100px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.nomefuncio
+{
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 45px;
+top: 250px;
+
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+>>>>>>> parent of be22c75 (histórico)
+}
+.sobrefuncio
+{
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 45px;
+top: 330px;
+
+<<<<<<< HEAD
 .newpass {
     position: absolute;
     width: 200.4px;
@@ -456,9 +782,142 @@ body {
 
     background: #FFF7F7;
     border-radius: 50px;
+=======
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.datanasci
+{
+    position: absolute;
+width: 210px;
+height: 0px;
+left: 56px;
+top: 400px;
+
+border: 1px solid #000000;
+}
+.datafuncio
+{
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 300px;
+    top: 410px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.senhafuncio
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 45px;
+    top: 480px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.senhasenhafuncio
+{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 45px;
+    top: 560px;
+    
+    background: #00CC8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.fotofuncionario
+{
+    position: absolute;
+width: 331px;
+height: 331px;
+left: 779px;
+top: 158px;
+}
+.gerarlogin
+{  
+    text-align: center;
+    font-size: 39px;
+    position: absolute;
+width: 250px;
+height: 70px;
+left: 1000px;
+top: 650px;
+color: white;
+background: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+font-weight: bold;  
+}
+.pesquisa-cliente
+{
+    background-image: url('img/fundocliente.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.client-page
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+.pesquisaclientela
+{
+    text-align: center;
+    position: absolute;
+width: 300px;
+height: 50px;
+left: 201px;
+top: 70px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+.notfinder
+{
+    position: absolute;
+width: 228px;
+height: 37px;
+left: 623px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.cadastrar-botao
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+position: absolute;
+width: 150px;
+height: 50px;
+left: 650px;
+top: 80px;
+
+background: #FFF7F7;
+border-radius: 50px;
+>>>>>>> parent of be22c75 (histórico)
 }
 
 .minha-area-de-rolagem {
+<<<<<<< HEAD
     height: 200px;
     /* altura da área de rolagem */
     overflow-y: scroll;
@@ -607,22 +1066,173 @@ body {
 }
 
 .remedios {
+=======
+    height: 200px; /* altura da área de rolagem */
+    overflow-y: scroll; /* habilita a rolagem vertical */
+    position: absolute;
+width: 1208px;
+height: 536px;
+left: 45px;
+top: 190px;
+
+background: #FFFFFF;
+  }
+  .cliente1
+  {
+    
+    display: inline-block; /* exibição em linha com largura definida */
+  column-count: 2; /* dividir em duas colunas */
+  column-gap: 20px; /* espaço entre as colunas */
+width: 1162px;
+height: 115px;
+left: 57px;
+top: 217px;
+
+background: #D9D9D9;
+border-radius: 10px;
+margin: 5px;
+text-decoration: none;
+color: #000000;
+
+  }
+  .nomecliente
+  {
+    margin: 5px;
+    text-align: left;
+    font-size: 22px;
+  }
+  .nomepet
+  {
+    
+    font-size: 30px;
+  }
+.CPF
+{
+    margin: 5px;
+    font-size: 15px;
+}
+.fichabob
+{
+    background-image: url('img/Ficha\ Bob.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.tela-cadastro
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+.quadrado
+{
+    position: absolute;
+width: 180px;
+height: 140px;
+left: 297px;
+top: 70px;
+
+background: #00CC8F;
+border-radius: 10px;
+}
+.txtmaior
+{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.quadrado2
+{
+    position: absolute;
+width: 270px;
+height: 175px;
+left: 91px;
+top: 303px;
+
+background: #00CC8F;
+border-radius: 10px;
+}
+.quadrado3
+{
+    position: absolute;
+    width: 360px;
+    height: 106px;
+    left: 95px;
+    top: 530px;
+    
+    background: #00CC8F;
+    border-radius: 10px; 
+}
+.quadrado4
+{
+    position: absolute;
+width: 614px;
+height: 270px;
+left: 562px;
+top: 85px;
+
+background: #00CC8F;
+border-radius: 50px;
+text-align: center;
+}
+.txtgenerico
+{
+    border: 5px;
+    margin: 20px;
+}
+.voltar
+{
+    position: absolute;
+width: 67px;
+height: 68px;
+left: 1219px;
+top: 10px;
+
+background: url(458594.png);
+}
+.fotospet
+{
+    height: 200px; /* altura da área de rolagem */
+    overflow-y: scroll; /* habilita a rolagem vertical */
+    position: absolute;
+width: 450px;
+height: 200px;
+left: 620px;
+top: 400px;
+border-radius: 5%;
+background: #00CC8F;
+}
+.remedios
+{
+>>>>>>> parent of be22c75 (histórico)
 
     width: 180px;
     height: 150px;
     left: 297px;
     top: 70px;
+<<<<<<< HEAD
 
     background: #979797;
     border-radius: 10px;
 }
 
 .foto {
+=======
+    
+    background: #979797;
+    border-radius: 10px;
+}
+.foto
+{
+>>>>>>> parent of be22c75 (histórico)
     margin: 10px;
     width: 180px;
     height: 160px;
     left: 297px;
     top: 70px;
+<<<<<<< HEAD
 
     background: #979797;
     border-radius: 10px;
@@ -1210,3 +1820,274 @@ body {
   left: 50px;
 }
 
+=======
+    
+    background: #979797;
+    border-radius: 10px;
+}
+.remedin
+{
+    position: absolute;
+    margin: 10px;
+    width: 180px;
+    height: 160px;
+    left: 770px;
+    top: 350px;
+}
+.txtgeneric
+{
+    margin: 10px;
+}
+.cadastro
+{
+    background-image: url('img/fundocliente.png');
+    background-color: #222; /* cor de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* centraliza a imagem */
+}
+.cadastro-cliente
+{
+    position: relative;
+    width: 1024px;
+    height: 768px;
+}
+.voltar2
+{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 1100px;
+top: 50px;
+}
+.voltar3
+{
+    width: 100px;
+height: 100px;
+color: white;
+}
+.title4
+{
+    position: absolute;
+    left: 1115px;
+top: 0px;
+color: white
+}
+.Tutor
+{
+    position: absolute;
+width: 139px;
+height: 57px;
+left: 160px;
+top: 229px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.nometutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 350px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.sobretutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 420px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.cpftutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 490px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.numerotutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 560px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.endetutor
+{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 150px;
+top: 630px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.retangulo1
+{
+    position: absolute;
+width: 450px;
+height: 510px;
+left: 100px;
+top: 200px;
+
+background-color: #cfcfcf;
+border-radius: 50px;
+}
+.retangulo2
+{
+    position: absolute;
+    width: 450px;
+    height: 510px;
+    left: 750px;
+    top: 200px;
+    
+    background-color: #cfcfcf;
+    border-radius: 50px;
+}
+.paciente
+{
+    position: absolute;
+    width: 139px;
+    height: 57px;
+    left: 800px;
+    top: 229px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;
+}
+.namepet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 350px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.idadepet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 420px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.racapet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 490px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.pesopet
+{
+    font-size: 12px;   
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+width: 300px;
+height: 45px;
+left: 790px;
+top: 560px;
+
+background-color: #00CC8F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px; 
+}
+.escolhapet
+{
+    width: 300px;
+height: 45px;
+    position: absolute;
+    left: 800px;
+    top: 640px;
+    font-weight: bold;
+}
+.escolhasexo
+{
+    width: 300px;
+    height: 45px;
+        position: absolute;
+        left: 830px;
+        top: 670px;
+        font-weight: bold;
+}
+.concluido
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+width: 217px;
+height: 55px;
+left: 540px;
+top: 662px;
+
+background: #000000;
+border-radius: 50px;
+}
+>>>>>>> parent of be22c75 (histórico)
