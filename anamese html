@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="anamnese">
+  <section class=anamnse-cliente>
+    <h1 class="titulo1"> <u>Anamnese</h1>
+    </u>
+
+    <input class="historico" type="text" placeholder="Queixa Principal/Historico Recente" name="campo-texto" />
+    <img src="img/lapinsdesenho.png" class="lapis">
+
+    <input class="medicamentos" type="text" placeholder="Medicacões atuais" name="campo-texto" />
+    <img src="img/lapinsdesenho.png" class="lapis2">
+    <input class="peso" type="text" placeholder="Peso:" name="campo-texto" />
+    <p class="score">Escore corporal:</p>
+
+    <form class="sc1">
+      <label>
+        1
+        <input type="radio" name="escolha" value="opcao1" />
+
+
+      </label>
+
+      <form class="sc2">
+        <label>
+          2
+          <input type="radio" name="escolha" value="opcao1" />
+
+
+        </label>
+
+        <form class="sc3">
+          <label>
+            3
+            <input type="radio" name="escolha" value="opcao1" />
+
+
+          </label>
+          <form class="sc4">
+            <label>
+              4
+              <input type="radio" name="escolha" value="opcao1" />
+
+
+            </label>
+
+            <form class="sc5">
+              <label>
+                5
+                <input type="radio" name="escolha" value="opcao1" />
+
+
+              </label>
+              <p id="geral">Anamnse Geral</p>
+
+  </section>
+  <div class="fundo-verde1">
+    <div class="Opc1">
+      <label>
+        <br />
+        &nbsp; Estado reprodutivo: &emsp; &emsp;&emsp;&emsp;&emsp;Castrado:
+        <input type="radio" name="escolha" value="opcao1" />
+        &emsp;&emsp;
+      </label>
+      <label>
+        Não castrado:
+        <input type="radio" name="escolha" value="opcao2" />
+        <br />
+      </label>
+      <br>
+      <hr>
+      <form class="Opc2">
+        <label>
+          <br />
+          &nbsp; Ingestão de agua:&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
+          Aumentado:
+          <input type="radio" name="escolha" value="opcao1" />
+          &emsp;
+        </label>
+        <label>
+          Dimunido:
+          <input type="radio" name="escolha" value="opcao2" />
+          &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;
+          <br />
+        </label>
+        <br />
+        <hr />
+      </form>
+      <form class="Opç3">
+        <label>
+          <br />
+          &nbsp; Quantidade de urina:&emsp; &emsp;&emsp;&emsp;&ensp; Aumentado:
+          <input type="radio" name="escolha" value="opcao1" />
+          &emsp;
+        </label>
+        <label>
+          Diminuido:
+          <input type="radio" name="escolha" value="opcao2" />
+          &emsp;
+        </label>
+        <label>
+          Normal:
+          <input type="radio" name="escolha" value="opcao3" />
+          &emsp;
+        </label>
+        <label>
+          Não sabe:
+          <input type="radio" name="escolha" value="opcao4" />
+          &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp;
+          &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;
+          &emsp;&emsp;&emsp; &emsp;
+          <br />
+        </label>
+        <br />
+        <hr />
+      </form>
+      <form class="Opç4">
+        <label>
+          <br />
+          &nbsp; Fezes: &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;&emsp; &emsp;
+          &emsp; Normal:
+          <input type="radio" name="escolha" value="opcao1" />
+          &emsp; &emsp;
+        </label>
+        <label>
+          Alterado:
+          <input type="radio" name="escolha" value="opcao2" />
+          <br />
+        </label>
+        <br />
+        <hr />
+      </form>
+      <form class="Opc5">
+        <label>
+          <br />
+          &nbsp; Problemas de pele:&emsp; &emsp;&emsp; &emsp; &emsp; Sim:
+          <input type="radio" name="escolha" value="opcao1" />
+          &emsp; &emsp; &emsp;&nbsp;
+        </label>
+        <label>
+          Não:
+          <input type="radio" name="escolha" value="opcao2" />
+          <br />
+        </label>
+        <br />
+        <hr />
+      </form>
+      <form class="Opções6">
+        <label>
+          &nbsp; Peso &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+          &emsp; Manteve:
+          <input type="radio" name="escolha" value="opcao1" />
+          &emsp;&emsp;
+        </label>
+        <label>
+          Aumentou:
+          <input type="radio" name="escolha" value="opcao2" />
+          &emsp; Diminutiu:
+          <input type="radio" name="escolha" value="opcao3" />
+          &emsp;
+        </label>
+      </form>
+    </div>
+    
+ 
+    <p id="obs1">Observações:</p>
+    <p id="obs2">Observações:</p>
+    <p id="obs3">Observações:</p>
+    <p id="obs4">Observações:</p>
+    <p id="obs5">Observações:</p>
+    <p id="obs6">Observações:</p>
+    <br>
+    <br>
+    <a id="volta6" href="pesqcliente.html">Prosequir</a>
+
+   
+
+</div>
+
+</body>
+
+</html>
