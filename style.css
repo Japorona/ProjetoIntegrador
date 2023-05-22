@@ -1095,3 +1095,118 @@ body {
     width: 130px;
     color:black;
   }
+  #Score {
+  text-align: start;
+  position: absolute;
+
+  height: 45px;
+  width: -40px;
+  left: 250px;
+  top: 360px;
+}
+
+.Dez-a-um {
+  text-align: start;
+  position: absolute;
+
+  height: 45px;
+  width: -40px;
+  left: 355px;
+  top: 376px;
+}
+
+.fundo-verde {
+  background-color: #00cc8f;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  border-radius: 10px;
+}
+
+#observacao1 {
+  position: absolute;
+  top: 500px;
+  left: 740px;
+}
+#observacao2 {
+  position: absolute;
+  top: 580px;
+  left: 740px;
+}
+#observacao3 {
+  position: absolute;
+  top: 660px;
+  left: 740px;
+}
+#observacao4 {
+  position: absolute;
+  top: 740px;
+  left: 740px;
+}
+#observacao5 {
+  position: absolute;
+  top: 820px;
+  left: 740px;
+}
+#observacao6 {
+  position: absolute;
+  top: 885px;
+  left: 740px;
+}
+#Badge {
+  position: relative;
+  left: 900px;
+  top: -50px;
+}
+#anotacao1 {
+  position: absolute;
+  top: 515px;
+  left: 840px;
+  width: 200px;
+  text-decoration: #000000;
+}
+#anotacao2 {
+  position: absolute;
+  top: 595px;
+  left: 840px;
+  width: 200px;
+}
+#anotacao3 {
+  position: absolute;
+  top: 675px;
+  left: 840px;
+  width: 200px;
+}
+#anotacao4 {
+  position: absolute;
+  top: 755px;
+  left: 840px;
+  width: 200px;
+}
+#anotacao5 {
+  position: absolute;
+  top: 835px;
+  left: 840px;
+  width: 200px;
+}
+#anotacao6 {
+  position: absolute;
+  top: 900px;
+  left: 840px;
+  width: 200px;
+}
+
+#voltar6 {
+  text-decoration: none;
+  position: absolute;
+  left: 1250px;
+  top: 900px;
+  font-size: 32px;
+}
+
+#Anamnese-Geral {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
