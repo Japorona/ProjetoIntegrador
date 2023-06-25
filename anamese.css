@@ -1,7 +1,7 @@
 
 .anamnese {
     
-    background-image: url('img/WhatsApp\ Image\ 2023-05-22\ at\ 19.48.42.jpeg');
+    background-image: url('img/fundoanamese.jpeg');
     left: 5%;
     background-color: #222;
     /* cor de backup */
@@ -10,7 +10,7 @@
     background-position: center center;
     /* centraliza a imagem */
     height:890px;
-    width: 100px;
+    width: 100vw;
 }
 
 
@@ -175,9 +175,6 @@
     top: 370px;
     left: 740px;
   }
-  
-
-  
 
   #volta6 {
     text-decoration: none;

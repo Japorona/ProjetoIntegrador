@@ -1,7 +1,7 @@
 .login {
   position: relative;
-  width: 1024px;
-  height: 768px;
+  width: 100vw;
+  height: 100wv;
 }
 body {
   background-image: url("img/fundo.png");
@@ -25,7 +25,7 @@ body {
   line-height: 42px;
 }
 
-.caixatxt {
+#RAlogin {
   position: absolute;
   width: 300px;
   height: 30px;
@@ -52,7 +52,7 @@ body {
   font-size: 35px;
   line-height: 42px;
 }
-.senhatxt {
+#senhatxt {
   position: absolute;
   width: 300px;
   height: 30px;
@@ -81,7 +81,7 @@ body {
 
   color: #0500fc;
 }
-.botaologin {
+#botaologin {
   text-align: center;
   position: absolute;
   width: 200px;
@@ -1110,22 +1110,6 @@ body {
   color: #0500FC;
 }
 
-.botaologin {
-  text-align: center;
-  position: absolute;
-  width: 200px;
-  height: 70px;
-  left: 80px;
-  top: 535px;
-
-  background: #00CC8F;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
-  text-decoration: none;
-  text-decoration-color: black;
-  font-size: 50px;
-  color: black;
-}
 
 .esqsenha {
   position: relative;
@@ -1219,7 +1203,7 @@ body {
   width: 200.4px;
   height: 100.72px;
   left: 30px;
-  top: 500px;
+  top: 320px;
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: normal;
@@ -1233,7 +1217,7 @@ body {
   width: 300px;
   height: 30px;
   left: 30px;
-  top: 580px;
+  top: 400px;
 
   background: #00CC8F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1245,7 +1229,7 @@ body {
   width: 250.4px;
   height: 100.72px;
   left: 30px;
-  top: 600px;
+  top: 420px;
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: normal;
@@ -1259,7 +1243,7 @@ body {
   width: 300px;
   height: 30px;
   left: 30px;
-  top: 680px;
+  top: 500px;
 
   background: #00CC8F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1332,7 +1316,7 @@ body {
   color: #000000;
 }
 
-.nomefuncio {
+#nomefuncio {
   position: absolute;
   width: 300px;
   height: 30px;
@@ -1344,7 +1328,7 @@ body {
   border-radius: 30px;
 }
 
-.sobrefuncio {
+#sobrefuncio {
   position: absolute;
   width: 300px;
   height: 30px;
@@ -1366,7 +1350,7 @@ body {
   border: 1px solid #000000;
 }
 
-.datafuncio {
+#datafuncio {
   position: absolute;
   width: 130px;
   height: 30px;
@@ -1378,7 +1362,7 @@ body {
   border-radius: 30px;
 }
 
-.senhafuncio {
+#senhafuncio {
   position: absolute;
   width: 300px;
   height: 30px;
@@ -1390,12 +1374,24 @@ body {
   border-radius: 30px;
 }
 
-.senhasenhafuncio {
+#senhasenhafuncio {
   position: absolute;
   width: 300px;
   height: 30px;
   left: 45px;
   top: 560px;
+
+  background: #00CC8F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+#RA
+{
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 45px;
+  top: 640px;
 
   background: #00CC8F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1410,7 +1406,7 @@ body {
   top: 158px;
 }
 
-.gerarlogin {
+#gerarlogin {
   text-align: center;
   font-size: 39px;
   position: absolute;
