@@ -9,72 +9,98 @@
   </head>
   <body class="pesquisa-cliente">
     <section class="client-page">
-      <div class="minha-area-de-rolagem">
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Lucas Fernando</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Bob</h1>
-          <p>Cachorro</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Irineu Chico</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Nina</h1>
-          <p>Gato</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Maria Luiza</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Maria Penelope</h1>
-          <p>Cachorro</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Amanda Nicole</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Toro</h1>
-          <p>Gato</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Luiz Fernando</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Pepe</h1>
-          <p>Cachorro</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Ryan Monsoeres</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Merlin</h1>
-          <p>Gato</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Ivo Vinicius</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Lele</h1>
-          <p>Pet</p>
-        </a>
-        <a class="cliente1" href="Fichabob.html"
-          ><h1 class="nomecliente">Jean Carlos</h1>
-          <p class="txtgeneric">Tutor</p>
-          <h1 class="CPF">CPF:000.000.000-00</h1>
-          <h1 class="nomepet">Lobo</h1>
-          <p>Cachorro</p>
-        </a>
-      </div>
+      <div id="clientes"></div>
       <input
         class="pesquisaclientela"
         type="text"
         placeholder="Cliente/Paciente"
         name="campo-texto"
+        id="campo-pesquisa"
       />
       <h1 class="notfinder">Nao Encontrou?</h1>
       <a class="cadastrar-botao" href="cadastro.html">Cadastrar</a>
     </section>
+    <script src="cadastro.js"></script>
+    <script>
+      function exibirClientes(clientes) {
+        var divClientes = document.getElementById("clientes");
+
+        if (!divClientes) {
+          return;
+        }
+
+        divClientes.innerHTML = "";
+
+        clientes.forEach(function (cliente) {
+          var clienteElement = document.createElement("a");
+          clienteElement.classList.add("cliente1");
+          clienteElement.href = "Fichabob.html";
+
+          var nomeCliente = document.createElement("h1");
+          nomeCliente.classList.add("nomecliente");
+          nomeCliente.textContent = cliente.nome + " " + cliente.sobrenome;
+
+          var txtGeneric = document.createElement("p");
+          txtGeneric.classList.add("txtgeneric");
+          txtGeneric.textContent = "Tutor";
+
+          var cpfCliente = document.createElement("h1");
+          cpfCliente.classList.add("CPF");
+          cpfCliente.textContent = "CPF: " + cliente.cpf;
+
+          var nomePet = document.createElement("h1");
+          nomePet.classList.add("nomepet");
+          nomePet.textContent = "Nome do Pet: " + cliente.nomePet;
+
+          clienteElement.appendChild(nomeCliente);
+          clienteElement.appendChild(txtGeneric);
+          clienteElement.appendChild(cpfCliente);
+          clienteElement.appendChild(nomePet);
+
+          divClientes.appendChild(clienteElement);
+        });
+      }
+
+      // Função para pesquisar clientes pelo nome
+      function pesquisarClientes() {
+        // Obter o valor do campo de pesquisa
+        var searchTerm = document
+          .getElementById("campo-pesquisa")
+          .value.toLowerCase();
+
+        // Obter os clientes cadastrados
+        var clientesCadastrados = localStorage.getItem("clientes");
+        var clientes = clientesCadastrados
+          ? JSON.parse(clientesCadastrados)
+          : [];
+
+        // Filtrar os clientes com base no termo de pesquisa
+        var clientesFiltrados = clientes.filter(function (cliente) {
+          var nomeCompleto = (
+            cliente.nome +
+            " " +
+            cliente.sobrenome
+          ).toLowerCase();
+          return nomeCompleto.includes(searchTerm);
+        });
+
+        // Exibir os clientes filtrados na div de clientes
+        exibirClientes(clientesFiltrados);
+      }
+
+      // Exibir todos os clientes cadastrados na div de clientes ao carregar a página
+      document.addEventListener("DOMContentLoaded", function () {
+        // Exibir todos os clientes cadastrados
+        var clientesCadastrados = localStorage.getItem("clientes");
+        var clientes = clientesCadastrados
+          ? JSON.parse(clientesCadastrados)
+          : [];
+        exibirClientes(clientes);
+
+        // Adicionar evento de digitação para o campo de pesquisa
+        var campoPesquisa = document.getElementById("campo-pesquisa");
+        campoPesquisa.addEventListener("keyup", pesquisarClientes);
+      });
+    </script>
   </body>
 </html>

@@ -458,7 +458,7 @@ body {
   background: #fff7f7;
   border-radius: 50px;
 }
-.minha-area-de-rolagem {
+#clientes {
   height: 200px; /* altura da área de rolagem */
   overflow-y: scroll; /* habilita a rolagem vertical */
   position: absolute;
@@ -612,14 +612,15 @@ body {
 .cadastro {
   background-image: url("img/fundocliente.png");
   background-color: #222; /* cor de backup */
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; /* centraliza a imagem */
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
 }
 .cadastro-cliente {
   position: relative;
-  width: 1024px;
-  height: 768px;
+  width: 100vwpx;
+  height: 100vhpx;
 }
 .voltar2 {
   position: absolute;
@@ -654,7 +655,7 @@ body {
 
   color: #000000;
 }
-.nometutor {
+#nometutor {
   text-align: start;
   font-weight: bold;
   position: absolute;
@@ -670,7 +671,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.sobretutor {
+#sobretutor {
   text-align: start;
   font-weight: bold;
   position: absolute;
@@ -686,7 +687,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.cpftutor {
+#cpftutor {
   text-align: start;
   font-weight: bold;
   position: absolute;
@@ -702,7 +703,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.numerotutor {
+#numerotutor {
   text-align: start;
   font-weight: bold;
   position: absolute;
@@ -718,7 +719,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.endetutor {
+#endetutor {
   text-align: start;
   font-weight: bold;
   position: absolute;
@@ -734,7 +735,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.retangulo1 {
+#retangulo1 {
   position: absolute;
   width: 450px;
   height: 510px;
@@ -744,7 +745,7 @@ body {
   background-color: #cfcfcf;
   border-radius: 50px;
 }
-.retangulo2 {
+#retangulo2 {
   position: absolute;
   width: 450px;
   height: 510px;
@@ -769,7 +770,7 @@ body {
 
   color: #000000;
 }
-.namepet {
+#namepet {
   font-size: 12px;
   text-align: start;
   font-weight: bold;
@@ -786,7 +787,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.idadepet {
+#idadepet {
   font-size: 12px;
   text-align: start;
   font-weight: bold;
@@ -803,7 +804,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.racapet {
+#racapet {
   font-size: 12px;
   text-align: start;
   font-weight: bold;
@@ -820,7 +821,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.pesopet {
+#pesopet {
   font-size: 12px;
   text-align: start;
   font-weight: bold;
@@ -837,7 +838,7 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
-.escolhapet {
+#escolhapet {
   width: 300px;
   height: 45px;
   position: absolute;
@@ -845,7 +846,7 @@ body {
   top: 640px;
   font-weight: bold;
 }
-.escolhasexo {
+#escolhasexo {
   width: 300px;
   height: 45px;
   position: absolute;
@@ -853,7 +854,7 @@ body {
   top: 670px;
   font-weight: bold;
 }
-.concluido {
+#concluido {
   text-align: center;
   text-decoration: none;
   font-size: 35px;
@@ -1918,209 +1919,7 @@ body {
   border-radius: 50px;
 }
 
-.anamnese {
-  
-  background-image: url('img/fundouni.jpeg');
-  background-color: #222;
-  /* cor de backup */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  /* centraliza a imagem */
-  height: 900px;
-}
 
-
-
-.anamnse-cliente {
-  position: relative;
-  width: 1024px;
-  height: 708px;
-}
-
-.titulo1 {
-  top: 80px;
-  position: relative;
-  left: 1000px;
-  color: black;
-  border-radius: 10px;
-
-
-}
-
-.historico {
-  text-align: start;
-  font-weight: bold;
-  position: absolute;
-  width: 420px;
-  height: 90px;
-  left: 80px;
-  top: 170px;
-
-  background-color: #00CC8F;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 9px;
-}
-
-.lapis {
-  width: 17px;
-  top: 155px;
-  position: relative;
-  left: 310px;
-}
-.medicamentos{
-  text-align: start;
-  font-weight: bold;
-  position: absolute;
-  width: 420px;
-  height: 90px;
-  left: 850px;
-  top: 170px;
-
-  background-color: #00CC8F;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 9px;
-
-}
-.lapis2{
-  width: 17px;
-  top: 155px;
-  position: relative;
-  left: 955px;
-}
-.peso{
-  text-align: center;
-  font-weight: bold;
-  position: absolute;
-  width: 120px;
-  height: 50px;
-  left: 80px;
-  top: 280px;
-
-  background-color: #00CC8F;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 9px;
-
-}
-.score{
-  text-align: center;
-  font-weight: bold;
-  position: absolute;
-  left: 215px;
-  top: 290px
-
-}
-
-
-.sc1{
-  width: 300px;
-  height: 45px;
-  position: absolute;
-  left: 330px;
-  top: 305px;
-  font-weight: bold;
-}
-.sc2{
-  width: 300px;
-  height: 45px;
-  position: absolute;
-  left: 490px;
-  top: 442px;
-  font-weight: bold;
-}
-
-.sc3{
-  width: 300px;
-  height: 45px;
-  position: absolute;
-  left: 500px;
-  top: 442px;
-  font-weight: bold;
-}
-
-.sc4{
-  width: 300px;
-  height: 45px;
-  position: absolute;
-  left: 510px;
-  top: 442px;
-  font-weight: bold;
-}
-
-.sc5{
-  width: 300px;
-  height: 45px;
-  position: absolute;
-  left: 520px;
-  top: 450px;
-  font-weight: bold;
-}
-#geral{
-
-  width: 300px;
-  height: 45px;
-  position: absolute;
-  left: -250px;
-  top:25px;
-  font-weight: bold;
-}
-.fundo-verde1 {
-  background-color: #00cc8f;
-  position: absolute;
-  top: 400px;
-  left: 60px;
-  border-radius: 10px;
-}
-#obs1 {
-  position: absolute;
-  top: 10px;
-  left: 740px;
-}
-
-#obs2 {
-  position: absolute;
-  top: 80px;
-  left: 740px;
-}
-#obs3 {
-  position: absolute;
-  top: 150px;
-  left: 740px;
-}
-#obs4 {
-  position: absolute;
-  top: 220px;
-  left: 740px;
-}
-#obs5 {
-  position: absolute;
-  top: 290px;
-  left: 740px;
-}
-#obs6 {
-  position: absolute;
-  top: 370px;
-  left: 740px;
-}
-
-
-
-
-#volta6 {
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  color: #d9d9d9;
-  position: absolute;
-width: 206px;
-height: 55px;
-left: 104px;
-top: 456px;
-
-background: #000000;
-border-radius: 50px;
-}
 .body_receita{
   
   background-image: url('img/fundofinal.png');

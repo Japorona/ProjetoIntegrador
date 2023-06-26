@@ -1,38 +1,118 @@
-// Capturando referências dos elementos do formulário
-var nomeInput = document.getElementById("nomefuncio");
-var sobreInput = document.getElementById("sobrefuncio");
-var dataInput = document.getElementById("datafuncio");
-var senhaInput = document.getElementById("senhafuncio");
-var senhasenhaInput = document.getElementById("senhasenhafuncio");
-var raInput = document.getElementById("RA");
+document.addEventListener("DOMContentLoaded", function () {
+  function adicionarCliente(nome, sobrenome, cpf, nomePet) {
+    var clientesCadastrados = localStorage.getItem("clientes");
+    var clientes = clientesCadastrados ? JSON.parse(clientesCadastrados) : [];
 
-// Função para salvar os valores e redirecionar
-function salvarDados() {
-  var nomefuncio = nomeInput.value;
-  var sobrefuncio = sobreInput.value;
-  var datafuncio = dataInput.value;
-  var senhafuncio = senhaInput.value;
-  var senhasenhafuncio = senhasenhaInput.value;
-  var ra = raInput.value;
+    // Verificar se o CPF já existe na lista de clientes
+    var clienteExistente = clientes.find(function (cliente) {
+      return cliente.cpf === cpf;
+    });
 
-  // Verificando se todos os campos foram preenchidos
-  if (nomefuncio === "" || sobrefuncio === "" || datafuncio === "" || senhafuncio === "" || senhasenhafuncio === "" || ra === "") {
-    alert("Por favor, preencha todos os campos!");
-    return;
+    if (clienteExistente) {
+      alert("CPF já cadastrado!");
+      return;
+    }
+
+    var novoCliente = {
+      nome: nome,
+      sobrenome: sobrenome,
+      cpf: cpf,
+      nomePet: nomePet,
+    };
+
+    clientes.push(novoCliente);
+
+    localStorage.setItem("clientes", JSON.stringify(clientes));
+
+    exibirClientes();
   }
 
-  // Exibindo os valores salvos
-  console.log("Nome:", nomefuncio);
-  console.log("Sobre:", sobrefuncio);
-  console.log("Data:", datafuncio);
-  console.log("Senha:", senhafuncio);
-  console.log("SenhaSenha:", senhasenhafuncio);
-  console.log("RA:", ra);
+  function redirecionar(event) {
+    event.preventDefault();
 
-  // Redirecionando para a página index.html
-  window.location.href = "index.html";
-}
+    var nomeTutor = document.getElementById("nometutor").value;
+    var sobrenomeTutor = document.getElementById("sobretutor").value;
+    var cpfTutor = document.getElementById("cpftutor").value;
+    var numeroTutor = document.getElementById("numerotutor").value;
+    var enderecoTutor = document.getElementById("endetutor").value;
+    var nomePet = document.getElementById("namepet").value;
+    var idadePet = document.getElementById("idadepet").value;
+    var racaPet = document.getElementById("racapet").value;
+    var pesoPet = document.getElementById("pesopet").value;
 
-// Adicionando um evento de clique ao botão de envio
-var enviarButton = document.getElementById("gerarlogin");
-enviarButton.addEventListener("click", salvarDados);
+    if (
+      nomeTutor === "" ||
+      sobrenomeTutor === "" ||
+      cpfTutor === "" ||
+      numeroTutor === "" ||
+      enderecoTutor === "" ||
+      nomePet === "" ||
+      idadePet === "" ||
+      racaPet === "" ||
+      pesoPet === ""
+    ) {
+      alert("Por favor, preencha todos os campos!");
+      return;
+    }
+
+    adicionarCliente(nomeTutor, sobrenomeTutor, cpfTutor, nomePet);
+
+    alert("Cadastro realizado com sucesso!");
+
+    window.location.href = "cssAnamese.html";
+  }
+
+  function exibirClientes() {
+    var clientesCadastrados = localStorage.getItem("clientes");
+    var clientes = clientesCadastrados ? JSON.parse(clientesCadastrados) : [];
+
+    var divClientes = document.getElementById("clientes");
+
+    if (!divClientes) {
+      return;
+    }
+
+    divClientes.innerHTML = "";
+
+    clientes.forEach(function (cliente) {
+      var clienteElement = document.createElement("a");
+      clienteElement.classList.add("cliente1");
+      clienteElement.href = "Fichabob.html";
+
+      var nomeCliente = document.createElement("h1");
+      nomeCliente.classList.add("nomecliente");
+      nomeCliente.textContent = cliente.nome + " " + cliente.sobrenome;
+
+      var txtGeneric = document.createElement("p");
+      txtGeneric.classList.add("txtgeneric");
+      txtGeneric.textContent = "Tutor";
+
+      var cpfCliente = document.createElement("h1");
+      cpfCliente.classList.add("CPF");
+      cpfCliente.textContent = "CPF: " + cliente.cpf;
+
+      var nomePet = document.createElement("h1");
+      nomePet.classList.add("nomepet");
+      nomePet.textContent = "Nome do Pet: " + cliente.nomePet;
+
+      clienteElement.appendChild(nomeCliente);
+      clienteElement.appendChild(txtGeneric);
+      clienteElement.appendChild(cpfCliente);
+      clienteElement.appendChild(nomePet);
+
+      divClientes.appendChild(clienteElement);
+    });
+  }
+
+  var botaoProsseguir = document.getElementById("concluido");
+  if (botaoProsseguir) {
+    botaoProsseguir.addEventListener("click", redirecionar);
+  }
+
+  var isCadastroPage = document.body.classList.contains("cadastro");
+
+  if (isCadastroPage) {
+    exibirClientes();
+  }
+
+});
